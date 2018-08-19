@@ -14,11 +14,11 @@
       class="col-lg-3"
       >
 
-        <div class="item__infos">
+        <div>
 
-          <img :src="getImg(item)" class="img-fluid" :alt="item.nome">
+          <img :src="getImg(item)" class="item__img" :alt="item.nome">
 
-          <p class="item__title">
+          <p>
             {{item.title}}
           </p>
 

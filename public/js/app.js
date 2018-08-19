@@ -50558,13 +50558,13 @@ var render = function() {
         },
         _vm._l(_vm.galleryItens, function(item) {
           return _c("div", { key: item.id, staticClass: "col-lg-3" }, [
-            _c("div", { staticClass: "item__infos" }, [
+            _c("div", [
               _c("img", {
-                staticClass: "img-fluid",
+                staticClass: "item__img",
                 attrs: { src: _vm.getImg(item), alt: item.nome }
               }),
               _vm._v(" "),
-              _c("p", { staticClass: "item__title" }, [
+              _c("p", [
                 _vm._v("\n          " + _vm._s(item.title) + "\n        ")
               ])
             ])

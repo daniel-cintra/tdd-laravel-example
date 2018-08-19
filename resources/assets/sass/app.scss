@@ -21,10 +21,6 @@ html, body {
   margin: 0;
 }
 
-// .full-height {
-//   height: 100vh;
-// }
-
 .flex-center {
   align-items: center;
   display: flex;
@@ -43,7 +39,6 @@ html, body {
 
 .content {
   margin-top: 60px;
-  // text-align: center;
 }
 
 .gallery__row {
@@ -70,4 +65,11 @@ html, body {
 
 .m-b-md {
   margin-bottom: 30px;
+}
+
+// backend
+.item__img {
+  @extend .img-fluid;
+
+  cursor: move;
 }
