@@ -4,7 +4,7 @@ I'm switching to TDD (Test Driven Development) in my daily work. It's been a nic
 
 This repository, is a little example of TDD methodology implemented in a Laravel Admin Panel, where the admin users can set the order of the gallery itens by dragging and dropping the itens to the desired position. A Vue.js component handles the drag and drop stuff. The changes are automatically persisted to the database and reflected in the frontend.
 
-<!-- ![vue menu demo](https://github.com/daniel-cintra/vue-menu/blob/master/demo-screencast/menu-vue.gif) -->
+![laravel tdd demo](https://github.com/daniel-cintra/tdd-laravel-example/blob/master/demo-screencast/tdd-laravel.gif)
 
 ## The tests
 
