@@ -32,10 +32,41 @@ Install the required npm packages:
 
 `npm install`
 
-If needed, check the database configuration in your `.env` file. Setup and seed the database. If you are using Homestead, ssh into your vm and run:
+Rename the `.env.example` (in your project root dir) file to `.env`. 
+
+Generate the application encryption key:
+
+`php artisan key:generate`
+
+### Database
+
+Open the `.env` file in your code editor and set the database values as needed, example:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=tdd
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
+Now, setup and seed the database, if you are using Homestead, **ssh into your VM** (by running `vagrant ssh` in your project root dir) and run:
 
 `php artisan migrate:refresh --seed`
 
-Just check in your database the email of the user created in the seed process, and use this email with the password `secret` to login in Adm Panel.
+### Map a "domain" to your project
+
+Now you must map a "domain" (like tdd-laravel.test) to your project folder. If you use [Laravel Homestead](https://laravel.com/docs/5.6/homestead) [just follow these steps](https://laravel.com/docs/5.6/homestead#adding-additional-sites).
+
+From Laravel Docs: "If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the serve Artisan command. This command will start a development server at http://localhost:8000":
+
+Run `php artisan serve` from your project root dir.
+
+### Auth Credentials
+
+You have one user created in `users` table, and six itens in `galleries` table.
+
+Just check in your database the email of the user created in the seed process, and use this email with the password `secret` to login in Admin Panel.
 
 Logged in, drag and drop the gallery itens and open the site to see the ordered itens.
