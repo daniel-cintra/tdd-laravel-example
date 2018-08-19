@@ -57,9 +57,9 @@ Now, setup and seed the database, if you are using Homestead, **ssh into your VM
 
 ### Map a "domain" to your project
 
-Now you must map a "domain" (like tdd-laravel.test) to your project folder. If you use [Laravel Homestead](https://laravel.com/docs/5.6/homestead) [just follow these steps](https://laravel.com/docs/5.6/homestead#adding-additional-sites).
+Option 1: Now you must map a "domain" (like tdd-laravel.test) to your project folder. If you use [Laravel Homestead](https://laravel.com/docs/5.6/homestead) just follow [these steps](https://laravel.com/docs/5.6/homestead#adding-additional-sites).
 
-From Laravel Docs: "If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the serve Artisan command. This command will start a development server at http://localhost:8000":
+Option 2: From Laravel Docs: "If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the serve Artisan command. This command will start a development server at http://localhost:8000":
 
 Run `php artisan serve` from your project root dir.
 
