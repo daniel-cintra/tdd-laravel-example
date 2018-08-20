@@ -2,6 +2,10 @@
 
   <div>
 
+    <h3 class="gallery__instruction">
+      Drag and Drop the images to your desired position...
+    </h3>
+
     <draggable
     v-model="galleryItens"
     class="row"

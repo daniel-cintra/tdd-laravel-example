@@ -68,6 +68,10 @@ html, body {
 }
 
 // backend
+.gallery__instruction {
+  margin-bottom: 30px;
+}
+
 .item__img {
   @extend .img-fluid;
 

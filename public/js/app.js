@@ -48510,6 +48510,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -50543,6 +50547,10 @@ var render = function() {
   return _c(
     "div",
     [
+      _c("h3", { staticClass: "gallery__instruction" }, [
+        _vm._v("\n    Drag and Drop the images to your desired position...\n  ")
+      ]),
+      _vm._v(" "),
       _c(
         "draggable",
         {
