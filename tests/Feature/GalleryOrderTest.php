@@ -64,7 +64,7 @@ class GalleryOrderTest extends TestCase
     }
 
     /** @test */
-    public function it_reorder_gallery_itens()
+    public function it_reorders_gallery_itens()
     {
         $itens = create('App\Gallery', [], 3);
 
