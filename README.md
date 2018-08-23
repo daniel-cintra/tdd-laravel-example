@@ -18,6 +18,18 @@ After the project setup, open your terminal, cd into your project path (where th
 
 `./vendor/bin/phpunit`
 
+## Demo
+
+There's a [working example here](https://tdd-laravel-example.danielcintra.site/). 
+
+You can use these credentials to login in Admin Panel:
+
+**Email:** tester@gmail.com
+
+**Pass:** secret
+
+**Note:** If two users makes changes to the itens order at the same time, the last change will be persisted...
+
 ## Project install instructions
 
 First clone this repository:
